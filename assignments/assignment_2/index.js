@@ -3,7 +3,7 @@ const fs = require("fs")
 fs.writeFile("index.html", "<h1>Hello world <h1>", err => {
     console.log(err)
 })
-const server = http.createServer((req, res) => {
+const server = http.createServer((req , res) => {
     fs.readFile("index.html", { encoding: "utf-8" }, (err, data) => {
         res.end(data);
     })
