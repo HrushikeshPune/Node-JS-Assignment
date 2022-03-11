@@ -1,0 +1,28 @@
+body{
+    background-color: lightgrey;
+}
+.green{
+    color:green
+}
+.red{
+    color:red
+}
+.yellow{
+    color:yellow
+}
+.heading{
+    background-color: aquamarine;
+}
+td{
+    text-align: center;
+}
+.button{
+    margin-top: 25px;
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #d6d3df;
+    border-radius: 15px;
+    box-shadow: 0 5px #999;
+}
